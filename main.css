@@ -1,0 +1,87 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    padding:2em;
+}
+
+.sectionDark {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+.saveNatureWrapper {
+    margin-top: 20px;
+}
+
+button.saveNatureBtn {
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+div.sponsorImg {
+    display: block;
+    padding: 5%;
+}
+
+h5.modal-title {
+    margin: auto;
+}
+
+.modalFormWrapper {
+    padding: 2rem;
+}
+
+.solarImg {
+    display: block;
+    margin: auto;
+}
+
+button.energyBtn {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+
+
+.footerImg {
+    width: 100%;
+    padding: 15px;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+
+.fa-twitter-square {
+    color: aliceblue;
+}
+
+
+.socialWrapper {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
