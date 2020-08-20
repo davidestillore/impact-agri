@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="buyer-home.css">
+
+    <title>Buyer Home</title>
+  </head>
+  <body>
+
+      
+<!-- ####################### NAV BAR ######################     -->
+      
+    <div class="container-fluid">  
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+        </nav>
+
+
+<!-- ###################### JUMBOTRON ########################  -->
+        <div class="sectionGrey">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="display-4">Farms near you</h1>
+                </div>
+            </div> 
+
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-sm-6">
+                    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active text-center p-4">
+                                 <h1>Judith's Palay</h1>
+                                 <h3>Prop | Palay </h3>
+                                 <h3>Available | 200 Kg </h3>
+                                 <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
+                            </div>
+                            <div class="carousel-item text-center p-4">
+                                <h1>Mangga-tastic</h1>
+                                <h3>Prop | Mangoes </h3>
+                                <h3>Available | 100 Kg </h3>
+                                <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
+                            </div>
+                            <div class="carousel-item text-center p-4">
+                                <h1>Saging Handae</h1>
+                                <h3>Prop | Saging </h3>
+                                <h3>Available | 100 Kg </h3>
+                                <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+            
+        </div>
+        
+        
+        <!-- MAKE A POST  -->
+        
+
+        <div class="sectionDark">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-sm-6">
+                    <h1>Make a search</h1>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                              <label for="inputState">Crop</label>
+                              <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>Palay</option>
+                                <option>Saging</option>
+                                <option>Mangga</option>
+                                <option>Pinya</option>
+                              </select>
+                            </div>
+                          </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-4">
+                            <label for="inputEmail4">Quantity in Kg</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="searchWrapper"></div>
+                                <button type="button" class="btn btn-lg buyerSearch" data-toggle="modal" data-target="#buyerSearchModal">Search</button>
+                            </div>
+                        </div>
+                      </form>
+                </div>
+                <div class="col"></div>
+    
+            </div>
+            
+        </div> 
+
+        <!-- END OF POST -->
+
+        <!-- MODALS  -->
+        <div class="modal fade" id="buyerSearchModal" tabindex="-1" role="dialog" aria-labelledby="buyerSearchLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contentLabel">Search Result</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h5>Farm Name:</h5>
+                                    <h5>Cost per kilo:</h5>
+                                    <h5>Kg available:</h5>
+                                    <h5>Cost per kilo:</h5>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Mang Tomas' Farm</h5>
+                                    <h5>Php 100.00</h5>
+                                    <h5>100 Kg</h5>
+                                    <h5>Php 100.00</h5>
+                                </div>
+                            </div>
+                            <hr>
+                            <form>
+                                <div class="form-row">
+                                    <div class="col-sm-6 backButton">
+                                        <a class="btn btn-primary btn-lg" href="buyer-home.html" role="button">Back</a>
+                                    </div>
+                                    <div class="col-sm-6 orderSummaryButton">
+                                        <a class="btn btn-primary btn-lg" href="" role="button">Order</a>
+                                    </div>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+                    
+<!--  FOOTER MODAL   -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- END OF MODALS -->
+    </div>   <!-- CLASS = "CONTAINER-FLUID BUONG CONTENTS GAGAWING CONTAINER-FLUID-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

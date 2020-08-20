@@ -17,15 +17,15 @@
     margin-top: 10px;
 }
 
-
-.farmbutton {
-    text-align: center;
+.create {
+    font-size: x-large;
+    font-style: oblique;
 }
 
-.buyerbutton {
-    text-align: center;
+.choices {
+    text-align: left;
 }
 
-
-
-
+.bigbutton {
+    text-align: center;
+}

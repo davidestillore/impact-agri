@@ -3,9 +3,10 @@
     background: none;
 }
 
-.sectionLight {
-    background-color: #eceeef;
+.sectionGrey {
+    background-color: #272727;
     padding:2em;
+    color: #cccccc;
 }
 
 .sectionDark {
@@ -26,6 +27,16 @@
     text-align: center;
 }
 
+.orderbutton {
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+}
 
 
+.backButton {
+    text-align: center;
+}
 
+.orderSummaryButton {
+    text-align: center;
+}
