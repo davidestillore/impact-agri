@@ -33,3 +33,16 @@
 .back-or-pay {
     margin: 20px;
 }
+
+.centerContact {
+    text-align: center;
+}
+
+.entryMargin {
+    margin: 5px;
+}
+
+.centerPlaceOrder{
+    text-align: center;
+    margin: 10px;
+}
