@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="buyer-home.css">
-
-    <title>Buyer Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+    <title>Bigkis</title>
   </head>
   <body>
 
@@ -20,8 +20,10 @@
       
     <div class="container-fluid">  
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="../pending/buyer-pending.html">Navbar</a>
-        </nav>
+            <a class="navbar-brand" href="#" style="font-family: 'EB Garamond', serif; font-size: 2rem; color: #351c75ff">
+              <img src="../../assets/Logo.png" width="30" height="30" alt="" loading="lazy"> Bigkis
+            </a>
+          </nav>
 
 
 <!-- ###################### JUMBOTRON ########################  -->
@@ -39,19 +41,19 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active text-center p-4">
                                  <h1>JMang Larry</h1>
-                                 <h3>Prop | Palay </h3>
+                                 <h3>Crop | Palay </h3>
                                  <h3>Available | 200 Kg </h3>
                                  <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
                             </div>
                             <div class="carousel-item text-center p-4">
                                 <h1>Mangga-tastic</h1>
-                                <h3>Prop | Mangoes </h3>
+                                <h3>Crop | Mangoes </h3>
                                 <h3>Available | 100 Kg </h3>
                                 <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
                             </div>
                             <div class="carousel-item text-center p-4">
                                 <h1>Saging Handae</h1>
-                                <h3>Prop | Saging </h3>
+                                <h3>Crop | Saging </h3>
                                 <h3>Available | 100 Kg </h3>
                                 <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
                             </div>
@@ -87,16 +89,18 @@
                               <select id="inputState" class="form-control">
                                 <option selected>Choose...</option>
                                 <option>Palay</option>
-                                <option>Saging</option>
-                                <option>Mangga</option>
-                                <option>Pinya</option>
+                                <option>Banana</option>
+                                <option>Pineapple</option>
+                                <option>Corn</option>
+                                <option>Sugar</option>
+                                <option>Mangoes</option>
                               </select>
                             </div>
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-4">
-                            <label for="inputEmail4">Quantity in Kg</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                            <label for="">Quantity in Kg</label>
+                            <input type="text" class="form-control is-valid" id="inputEmail" placeholder="500">
                           </div>
                         </div>
                         <div class="row">
@@ -105,7 +109,7 @@
                                 <button type="button" class="btn btn-lg buyerSearch" data-toggle="modal" data-target="#buyerSearchModal">Search</button>
                             </div>
                         </div>
-                      </form>
+                    </form>
                 </div>
                 <div class="col"></div>
     

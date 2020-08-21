@@ -11,7 +11,7 @@
 
 .sectionDark {
     background-color: #cccccc;
-    padding: 2rem;
+    padding: 1rem;
 
 }
 
@@ -22,12 +22,16 @@
 
 .farmbutton {
     text-align: center;
-    padding: 10px;
+    padding: 0;
 }
 
 .buyerbutton {
     text-align: center;
     padding: 10px;
+}
+
+.buttonPad {
+    margin: 3rem;
 }
 
 
