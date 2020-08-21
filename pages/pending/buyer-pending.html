@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="buyer-pending.css">
-
-    <title>Buyer Pending</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+    <title>Bigkis</title>
   </head>
   <body>
 
@@ -20,8 +20,10 @@
       
     <div class="container-fluid">  
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-        </nav>
+            <a class="navbar-brand" href="#" style="font-family: 'EB Garamond', serif; font-size: 2rem; color: #351c75ff">
+              <img src="../../assets/Logo.png" width="30" height="30" alt="" loading="lazy"> Bigkis
+            </a>
+          </nav>
 
 
 <!-- ###################### JUMBOTRON ########################  -->
@@ -32,66 +34,36 @@
                     <h1 class="create">Pending Orders</h1>
                     <hr>
                     <div class="container sectionDark">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <h5>Order Date</h5>
-                                <hr>
-                            </div>
-                            <div class="col-sm-3">
-                                <h5>Crop</h5>
-                                <hr>
-                            </div>
-                            <div class="col-sm-3">
-                                <h5>Cost</h5>
-                                <hr>
-                            </div>
-                            <div class="col-sm-3">
-                                <h5>Status</h5>
-                                <hr>
-                            </div>
-                        </div>
-                        <div class="row entryMargin">
-                            <div class="col-sm-3">
-                                <h6>8/10/2020</h6>
-                            </div>
-                            <div class="col-sm-3">
-                                <h6>Bananas</h6>
-                            </div>
-                            <div class="col-sm-3">
-                                <h6>Php 5,000.00</h6>
-                            </div>
-                            <div class="col-sm-3 centerContact">
-                                <a class="btn btn-primary btn-sm" href="" role="button">Received</a>
-                            </div>
-                        </div>
-                        <div class="row entryMargin">
-                            <div class="col-sm-3">
-                                <h6>8/15/2020</h6>
-                            </div>
-                            <div class="col-sm-3">
-                                <h6>Rice</h6>
-                            </div>
-                            <div class="col-sm-3">
-                                <h6>Php 6,000.00</h6>
-                            </div>
-                            <div class="col-sm-3 centerContact">
-                                <a class="btn btn-primary btn-sm" href="" role="button">Delivery</a>
-                            </div>
-                        </div>
-                        <div class="row entryMargin">
-                            <div class="col-sm-3">
-                                <h6>8/15/2020</h6>
-                            </div>
-                            <div class="col-sm-3">
-                                <h6>Mangoes</h6>
-                            </div>
-                            <div class="col-sm-3">
-                                <h6>Php 4,000.00</h6>
-                            </div>
-                            <div class="col-sm-3 centerContact">
-                                <a class="btn btn-primary btn-sm" href="" role="button">Delivery</a>
-                            </div>
-                        </div>
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th class="head" scope="col">Order Date</th>
+                                <th class="head"scope="col">Crop</th>
+                                <th class="head"scope="col">Cost</th>
+                                <th class="head"scope="col">Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">8/10/2020</th>
+                                <td>Bananas</td>
+                                <td>₱5,000</td>
+                                <td>Received</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8/15/2020</th>
+                                <td>Rice</td>
+                                <td>₱6,000</td>
+                                <td>Delivery</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8/15/2020</th>
+                                <td>Mangoes</td>
+                                <td>₱4,000</td>
+                                <td>Delivery</td>
+                              </tr>
+                            </tbody>
+                          </table>
                     </div>
                 </div>
             </div>

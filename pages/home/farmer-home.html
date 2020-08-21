@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="farmer-home.css">
-
-    <title>Farmer Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+    <title>Bigkis</title>
   </head>
   <body>
 
@@ -20,15 +20,17 @@
       
     <div class="container-fluid">  
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="../pending/farmer-pending.html">Navbar</a>
-        </nav>
+            <a class="navbar-brand" href="../pending/farmer-pending.html" style="font-family: 'EB Garamond', serif; font-size: 2rem; color: #351c75ff">
+              <img href="../pending/farmer-pending.html" src="../../assets/Logo.png" width="30" height="30" alt="" loading="lazy"> Bigkis
+            </a>
+          </nav>
 
 
 <!-- ###################### JUMBOTRON ########################  -->
         <div class="sectionGrey">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="display-4">Stores near you</h1>
+                    <h1 class="nearYou">Mga tindahang malapit</h1>
                 </div>
             </div> 
 
@@ -38,19 +40,19 @@
                     <div id="carouselContent" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active text-center p-4">
-                                 <h1>Savemore</h1>
-                                 <h3>Prop | Palay </h3>
-                                 <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
+                                 <h1 class="caroSize">Savemore</h1>
+                                 <h3 class="caroSize2">Prop | Palay </h3>
+                                 <a type="submit" class="btn btn-secondary btn-lg orderbutton" href="../offer/offer.html" role="button">Mag-alok</a>
                             </div>
                             <div class="carousel-item text-center p-4">
-                                <h1>Marlou's Mini Grocery</h1>
-                                <h3>Prop | Mangoes </h3>
-                                <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
+                                <h1 class="caroSize">Marlou's Mini Grocery</h1>
+                                <h3 class="caroSize2">Prop | Mangoes </h3>
+                                <a type="submit" class="btn btn-secondary btn-lg orderbutton" href="../offer/offer.html" role="button">Mag-alok</a>
                             </div>
                             <div class="carousel-item text-center p-4">
-                                <h1>Smartowl Grocery Store</h1>
-                                <h3>Prop | Saging </h3>
-                                <a class="btn btn-primary btn-lg orderbutton" href="" role="button">Order</a>
+                                <h1 class="caroSize">Smartowl Grocery Store</h1>
+                                <h3 class="caroSize2">Prop | Saging </h3>
+                                <a type="submit" class="btn btn-secondary btn-lg orderbutton" href="../offer/offer.html" role="button">Mag-alok</a>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
@@ -84,30 +86,36 @@
                                 <option selected>Pumili...</option>
                                 <option>Palay</option>
                                 <option>Saging</option>
-                                <option>Mangga</option>
                                 <option>Pinya</option>
+                                <option>Mais</option>
+                                <option>Tubo</option>
+                                <option>Mangga</option>
                               </select>
                             </div>
                           </div>
                         <div class="form-row">
                           <div class="form-group col-md-4">
-                            <label for="inputEmail4">Timbang</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                            <label for="">Timbang (kilos)</label>
+                            <input type="text" class="form-control" id="" placeholder="100">
                           </div>
                         </div>
                         <div class="form-group">
                           <label for="inputAddress">Araw ng pagtanim</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                          <input type="text" class="form-control" id="" placeholder="8/5/2020">
                         </div>
                         <div class="form-group">
                           <label for="inputAddress2">Araw ng pag-ani</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                          <input type="text" class="form-control" id="" placeholder="11/5/2020">
                         </div>
                         <div class="form-group">
-                            <label for="inputAddress">Production cost</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="Php1000">
+                            <label for="text">Production cost</label>
+                            <input type="text" class="form-control" id="" placeholder="₱1000">
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12 searchCenter">
+                            <a class="btn btn-secondary btn-lg" href="../action/farmer-summary.html" role="button">Submit</a>
                           </div>
-                        <a type="submit" href="../action/farmer-summary.html"  class="btn btn-primary">Submit</a>
+                        </div>
                       </form>
                 </div>
                 <div class="col"></div>

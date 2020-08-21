@@ -18,8 +18,9 @@
 }
 
 .create {
-    font-size: x-large;
-    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .choices {
@@ -32,4 +33,13 @@
 
 .back-or-pay {
     margin: 20px;
+}
+
+.profit {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+tr td {
+    font-family: sans-serif;
 }

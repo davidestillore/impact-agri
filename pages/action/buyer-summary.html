@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="buyer-summary.css">
-
-    <title>Buyer Summary</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+    <title>Bigkis</title>
   </head>
   <body>
 
@@ -20,8 +20,10 @@
       
     <div class="container-fluid">  
         <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="../pending/buyer-pending.html">Navbar</a>
-        </nav>
+            <a class="navbar-brand" href="#" style="font-family: 'EB Garamond', serif; font-size: 2rem; color: #351c75ff">
+              <img src="../../assets/Logo.png" width="30" height="30" alt="" loading="lazy"> Bigkis
+            </a>
+          </nav>
 
 
 <!-- ###################### JUMBOTRON ########################  -->
@@ -36,17 +38,35 @@
                         <!-- FORM  -->
                         <div class="row">
                             <div class="col-sm-6">
-                                <h6>Crop : Banana</h6>  
-                                <h6>Cost/Kilo : Php100/Kilo</h6>  
-                                <h6>Kg available : 100</h6>  
-                                <h6>ETA : Aug 26, 2020</h6>  
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th class="head" scope="col">Crop </th>
+                                    <td>Banana</td>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Cost per Kilo </th>
+                                    <td>₱100 / Kilo</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Kg available </th>
+                                    <td>100</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">ETA </th>
+                                    <td>8/26/2020</td>
+                                  </tr>
+                                </tbody>
+                            </table> 
                             </div>
                         </div>
                         <form>
                             <div class="form-row">
                               <div class="form-group col-md-6">
-                                <label for="inputEmail4">Quantity</label>
-                                <input type="email" class="form-control" id="inputEmail4">
+                                <label for="">Quantity</label>
+                                <input type="text" class="form-control" id="">
                               </div>
                             </div>
                             <div class="form-row">
@@ -62,16 +82,21 @@
                             <hr>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h3 class="centerPrice">Price : Php 3,000</h3>  
+                                    <table class="table">
+                                      <tbody>
+                                        <th>
+                                          <th class="finalPrice">Price</th>
+                                          <td class="finalPrice">₱3,000</td>
+                                        </th>
+                                      </tbody>
+                                    </table>
                                 </div>
                             </div>
 
                           </form>
                         <div class="row back-or-pay">
-                            <div class="col-sm-6 bigbutton">
+                            <div class="col-sm-12 bigbutton">
                                 <a type="submit submitbutton" href="../home/buyer-home.html"  class="btn btn-primary btn-lg">Back</a>
-                            </div>
-                            <div class="col-sm-6 bigbutton">
                                 <a type="submit submitbutton" href="../pending/buyer-pending.html" class="btn btn-primary btn-lg">Order</a>
                             </div>
                         </div>

@@ -32,4 +32,22 @@
     margin: 20px;
 }
 
+.nearYou{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
 
+.caroSize {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.caroSize2 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.searchCenter {
+    text-align: center;
+}

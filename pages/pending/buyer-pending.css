@@ -46,3 +46,9 @@
     text-align: center;
     margin: 10px;
 }
+
+@media (max-width: 767.98px) { 
+    .head {
+        font-size: 15px;
+    }
+ }
