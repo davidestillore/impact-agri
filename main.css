@@ -1,3 +1,4 @@
+
 .jumbotron {
     text-align: center;
     background: none;
@@ -11,6 +12,7 @@
 .sectionDark {
     background-color: #cccccc;
     padding: 2rem;
+
 }
 
 .saveNatureWrapper {
@@ -20,12 +22,18 @@
 
 .farmbutton {
     text-align: center;
+    padding: 10px;
 }
 
 .buyerbutton {
     text-align: center;
+    padding: 10px;
 }
 
 
+/* 
 
+@media (max-width: 767.98px) { 
+
+ } */
 
