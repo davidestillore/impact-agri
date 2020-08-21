@@ -52,13 +52,24 @@
     margin: 10px;
 }
 
-@media (max-width: 767.98px) { 
-    .head {
-        font-size: 15px;
-    }
- }
 
  th td {
      font-family: sans-serif;
      font-size: 30px;
  }
+
+ @media (max-width: 767.98px) { 
+    .head {
+        font-size: 10px;
+    }
+    
+    th td {
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+ }
+
+
+ @media (max-width: 575.98px) { 
+
+  }
