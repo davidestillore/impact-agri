@@ -46,3 +46,8 @@ tr td {
     font-size: 30px;
     font-family: sans-serif;
 }
+
+.pads {
+    display: block;
+    margin: 5px 5px;
+}
