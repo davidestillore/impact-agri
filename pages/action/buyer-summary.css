@@ -45,6 +45,7 @@ tr td {
 .finalPrice {
     font-size: 30px;
     font-family: sans-serif;
+    font-weight: 100;
 }
 
 .pads {
@@ -58,4 +59,16 @@ tr td {
     }
  }
 
+ @media (max-width: 767.98px) { 
+    .finalPrice {
+        font-size: 20px;
+    }
+  }
  
+ .computeBtn {
+     text-align: center;
+ }
+
+#computerCenter {
+    margin: 0px;
+}

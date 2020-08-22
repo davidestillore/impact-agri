@@ -68,8 +68,8 @@
                         <form>
                             <div class="form-row">
                               <div class="form-group col-md-12">
-                                <label for="">Quantity</label>
-                                <input type="text" class="form-control" id="">
+                                <label for="">Quantity in Kg</label>
+                                <input type="text" class="form-control" id="num">
                               </div>
                             </div>
                             <div class="form-row">
@@ -83,6 +83,14 @@
                                 </div>
                             </div>
                             <hr>
+                            <div class="form-row">
+                              <div class="form-group col-md-12">
+                                <input type="submit submitbutton" onclick="compute()" id="computerCenter" value="Compute" href=""  class="btn btn-primary btn-lg pads"></input>
+                              </div>
+                            </div>
+
+
+
                             <div class="row">
                                 <div class="col-sm-12">
                                   <container class="table-responsive-sm">
@@ -90,7 +98,9 @@
                                       <tbody>
                                         <th>
                                           <th class="finalPrice">Price</th>
-                                          <td class="finalPrice">₱3,000</td>
+                                          <td>
+                                            <input type="text" id="price" class="finalPrice"></input>
+                                          </td>
                                         </th>
                                       </tbody>
                                     </table>
@@ -99,6 +109,13 @@
                             </div>
 
                           </form>
+                    <div class="row back-or-pay">
+                        <div class="col-sm-12 bigbutton">
+                            <a type="submit submitbutton" href="../home/buyer-home.html"  class="btn btn-primary btn-lg pads">Back</a>
+                        </div>
+                    </div>
+
+
                     <div class="row back-or-pay">
                         <div class="col-sm-12 bigbutton">
                             <a type="submit submitbutton" href="../home/buyer-home.html"  class="btn btn-primary btn-lg pads">Back</a>
@@ -122,8 +139,20 @@
         
         <!-- BUTTONS  -->
         
-    </div>   <!-- CLASS = "CONTAINER-FLUID BUONG CONTENTS GAGAWING CONTAINER-FLUID-->
+    </div>  
     <!-- Optional JavaScript -->
+    <script type="text/javascript">
+      function compute() {
+
+        var a = parseInt(document.getElementById("num").value);
+        var final = a*100;
+          document.getElementById('price').value=final;
+      }
+    </script>
+
+
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
