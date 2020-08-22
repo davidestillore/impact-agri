@@ -51,3 +51,9 @@ tr td {
     display: block;
     margin: 5px 5px;
 }
+
+@media (max-width: 575.98px) { 
+    .finalPrice {
+        font-size: 20px;
+    }
+ }
