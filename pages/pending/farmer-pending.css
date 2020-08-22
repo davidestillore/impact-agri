@@ -60,11 +60,11 @@
 
  @media (max-width: 575.98px) { 
     .head {
-        font-size: 10px;
+        font-size: 20px;
     }
     
     th td {
         font-family: sans-serif;
-        font-size: 10px;
+        font-size: 20px;
     }
  }
